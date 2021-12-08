@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
+    
+</head>
+<body>
+    
+    <center>
+        <form name="form1">
+            <table class="zxc" border=1 cellpadding=4 cellspacing=1> 
+                <tr>
+                <td align=center>Сколько составляет
+                    <input type="text" name="a" size=5> 
+                % от числа <input type="text" name="b" size=5></td>
+                <td align=center>Ответ: <input type="text" name="total1" 
+                size=5 maxlength=40></td>
+                <td align=center><input id="knopka" type="button" value="Calculate" 
+                onClick="calc1(this.form)"></td>
+                </tr>
+
+                <tr> 
+                <td align=center>
+                Сколько % составляет число
+                <input type="text" name="c" size=5>
+                от
+                <input type="text" name="d" size=5>?</td>
+                <td align=center>Ответ: <input type="text" name="total2" 
+                size=5> %</td>
+                <td align=center><input id="knopka" type="button" value="Calculate" 
+                onClick="calc2(this.form)"></td>
+                </tr>
+                
+                <tr> 
+                    <td align=center>
+                    К числу 
+                    <input type="text" name="e" size=5>
+                    прибавить
+                    <input type="text" name="f" size=5>%</td>
+                    <td align=center>Ответ: <input type="text" name="total3" 
+                    size=5> </td>
+                    <td align=center><input id="knopka" type="button" value="Calculate" 
+                    onClick="calc3(this.form)"></td>
+                </tr>
+              
+                    <tr> 
+                        <td align=center>
+                        Из числа
+                        <input type="text" name="z" size=5>
+                        вычесть
+                        <input type="text" name="x" size=5>%</td>
+                        <td align=center>Ответ: <input type="text" name="total4" 
+                        size=5> </td>
+                        <td align=center><input id="knopka" type="button" value="Calculate" 
+                        onClick="calc4(this.form)"></td>
+                    </tr>
+            </table>
+        </form>
+
+    </center>
+    
+    
+</body>
+</html>

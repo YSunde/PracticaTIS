@@ -1,0 +1,31 @@
+html{
+    background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5)), url(/image/57ef761e6d4c7d3e95f1fabdd77e4c7fa6aa4e19r1-1920-1080v2_uhq.jpg); 
+    background-size: cover;
+    height: 100%;
+}
+.zxc{
+    background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5));
+   width: 50%;
+   margin-top: 20%;
+   
+}
+#knopka {
+    text-decoration: none;
+  user-select: none;
+  background: rgb(212,75,56);
+  padding: .7em 1.5em;
+  outline: none;
+}
+#knopka:hover { background: rgb(232,95,76); }
+#knopka:active { background: rgb(152,15,0); }
+input[type="text"] {
+    border: 1px solid #cccccc; 
+    border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    background: #ffffff !important; 
+    outline: none; 
+    height: 18px;
+    width: 100px;
+    color: #000000;
+    font-size: 11px;
+ }
